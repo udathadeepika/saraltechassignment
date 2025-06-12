@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaralTech™ Web Development Trainee Assignment</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>     
+        body {
+            font-family: 'Inter', sans-serif;
+            @apply bg-gray-100 text-gray-800; 
+        }
+    </style>
+</head>
+<body class="flex flex-col min-h-screen">   
+    <header class="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-6 shadow-lg rounded-b-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl sm:text-3xl font-bold">SaralTech™ Trainee Assignment</h1>
+            
+        </div>
+    </header>   
+    <nav class="bg-gray-800 p-4 shadow-md rounded-lg mx-4 mt-4">
+        <ul class="container mx-auto flex flex-col sm:flex-row justify-center sm:justify-start items-center space-y-2 sm:space-y-0 sm:space-x-6 text-white text-lg">
+            <li><a href="#home" class="hover:text-blue-300 transition duration-300 ease-in-out px-3 py-1 rounded-md">Home</a></li>
+            <li><a href="#about" class="hover:text-blue-300 transition duration-300 ease-in-out px-3 py-1 rounded-md">About Us</a></li>
+            <li><a href="#contact" class="hover:text-blue-300 transition duration-300 ease-in-out px-3 py-1 rounded-md">Contact</a></li>
+        </ul>
+    </nav>   
+    <main class="container mx-auto p-4 flex-grow bg-white shadow-xl rounded-lg my-6">
+        <section id="introduction" class="mb-8">
+            <h2 class="text-3xl font-semibold text-blue-700 mb-4 border-b-2 border-blue-300 pb-2">Welcome to Our Webpage!</h2>
+            <p class="text-lg leading-relaxed text-gray-700">
+                This webpage serves as a demonstration of fundamental HTML and CSS skills, specifically designed for the SaralTech™ Web Development Trainee position. It showcases a basic, yet responsive, layout featuring a header, navigation, main content area, and a footer, all styled to ensure a clean and modern user experience across various devices.
+            </p>
+        </section>
+        <section id="content-details" class="mb-8">
+            <h3 class="text-2xl font-medium text-purple-700 mb-3">Key Features Demonstrated:</h3>
+            <ul class="list-disc list-inside text-gray-700 space-y-2">
+                <li><strong class="font-semibold">Semantic HTML5 Structure:</strong> Using `header`, `nav`, `main`, `section`, and `footer` for better accessibility and SEO.</li>
+                <li><strong class="font-semibold">Modern CSS Styling with Tailwind:</strong> Efficiently applying styles for layout, typography, colors, and responsive design.</li>
+                <li><strong class="font-semibold">Responsive Design Principles:</strong> Ensuring optimal viewing and interaction experience across a wide range of devices (desktops, tablets, and mobile phones) by using fluid grids and media queries (handled by Tailwind's utility-first approach).</li>
+                <li><strong class="font-semibold">Custom Typography:</strong> Utilizing the 'Inter' font for a contemporary look and feel.</li>
+                <li><strong class="font-semibold">Interactive Navigation:</strong> Simple hover effects on navigation links for better user feedback.</li>
+            </ul>
+        </section>
+        <section id="placeholder-content">
+            <h3 class="text-2xl font-medium text-green-700 mb-3">Additional Placeholder Content:</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-gray-700">
+                <p class="bg-gray-50 p-4 rounded-md shadow-sm border border-gray-200">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p class="bg-gray-50 p-4 rounded-md shadow-sm border border-gray-200">
+                    Curabitur pretium tincidunt lacus. Nulla facilisi. Aenean feugiat non eros quis feugiat. Integer ut nulla eget sapien tincidunt dictum. Fusce nec varius arcu. Praesent et erat non nulla fermentum tempus. Vivamus quis magna at magna efficitur consectetur. Donec ac ex et diam iaculis facilisis sit amet id tellus.
+                </p>
+            </div>
+            <p class="mt-6 text-gray-700 bg-gray-50 p-4 rounded-md shadow-sm border border-gray-200">
+                Feel free to explore the structure and styling of this page. The combination of semantic HTML and Tailwind CSS provides a robust foundation for building modern web applications. The goal is to create maintainable, scalable, and visually appealing user interfaces.
+            </p>
+        </section>
+    </main>   
+    <footer class="bg-gray-900 text-white p-4 mt-6 shadow-inner rounded-t-lg">
+        <div class="container mx-auto text-center text-sm sm:text-base">
+            &copy; 2025 SaralTech™ Web Development Trainee. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>
